@@ -1,0 +1,19 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Matching {
+	
+	public Matching(String input)  {
+		File f = new File(input);
+		Scanner s;
+		try {
+			s = new Scanner(f);
+			System.out.println(s.next());
+		} catch (FileNotFoundException e) {
+			System.out.println("filen ej hittad");
+		}
+		System.out.println("hej");
+	}
+
+}

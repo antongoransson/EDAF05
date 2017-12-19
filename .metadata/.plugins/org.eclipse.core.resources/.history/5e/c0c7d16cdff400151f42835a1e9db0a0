@@ -1,0 +1,45 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Matching {
+	private String input;
+	private int nbrOfPairs;
+
+	public Matching(String input) {
+		this.input = input;
+	}
+
+	public void readFromeFile() {
+		File f = new File(input);
+		Scanner s = null;
+		try {
+			s = new Scanner(f);
+		} catch (FileNotFoundException e) {
+			System.out.println("filen ej hittad");
+			return;
+		}
+	//	while (s.hasNextLine()) {
+		Map<String, List<Integer>> m = new HashMap<String, List<Integer>>();
+		Map<String, List<Integer>> w = new HashMap<String, List<Integer>>();
+//		List<List<Integer>> men = new ArrayList<List<Integer>>();
+//		List<List<Integer>> women = new ArrayList<List<Integer>>();
+		s.nextLine();
+		s.nextLine();
+		nbrOfPairs = Integer.parseInt(s.nextLine().substring(2));
+		System.out.println(nbrOfPairs);
+			for (int i = 0; i < nbrOfPairs*2; i++) {
+				String person = s.nextLine();
+				System.out.println(person.substring(1));
+				if(i%2==0){
+					w.put(person., arg1)
+					
+				}
+			}
+		}
+	}
+

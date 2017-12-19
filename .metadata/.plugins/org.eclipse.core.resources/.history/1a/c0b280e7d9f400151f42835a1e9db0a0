@@ -1,0 +1,14 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Matching {
+	
+	public Matching(String input) throws FileNotFoundException {
+		File f = new File(input);
+		Scanner s = new Scanner(f);
+		System.out.println(s.next());
+		System.out.println("hej");
+	}
+
+}

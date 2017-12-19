@@ -1,0 +1,8 @@
+
+public class Main {
+	public staic void main(String []args){
+		
+	
+ Matching m = new Matching("sm-bbt-in.txt");
+ 
+}

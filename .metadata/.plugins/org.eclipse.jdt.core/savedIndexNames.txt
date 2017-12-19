@@ -1,0 +1,6 @@
+INDEX VERSION 1.127+C:\Users\Anton\Desktop\EDAF05\.metadata\.plugins\org.eclipse.jdt.core
+2654772809.index
+2002729852.index
+5770218.index
+3913002719.index
+2572245584.index
